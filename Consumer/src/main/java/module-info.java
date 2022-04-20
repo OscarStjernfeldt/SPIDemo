@@ -1,4 +1,4 @@
-module org.example.comsumer {
+module org.example.consumer {
     uses org.example.greet.Greeting;
     requires org.example.greeting;
 }
