@@ -2,7 +2,6 @@ package org.example.consumer;
 
 import org.example.greet.Greeting;
 
-
 import java.util.ServiceLoader;
 
 public class Main {
