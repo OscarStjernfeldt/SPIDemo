@@ -5,6 +5,5 @@ import org.example.provide.SwedishGreeting;
 
 module org.example.greetingprovider {
     requires org.example.greeting;
-    exports org.example.provide;
     provides Greeting with SwedishGreeting, EnglishGreeting, FrenchGreeting;
 }
